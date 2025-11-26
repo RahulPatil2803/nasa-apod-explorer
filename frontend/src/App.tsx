@@ -141,7 +141,6 @@ export default function App() {
       <ApodDetail item={detail} onClose={() => setDetail(null)} />
 
       <footer className="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-gray-400">
-        Built with React, Vite, and Tailwind • Data: NASA APOD
       </footer>
     </div>
   )
