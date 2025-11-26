@@ -1,0 +1,23 @@
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Java / Maven
+backend/target/
+
+# Logs
+*.log
+backend/spring.log
+
+# Env files and local overrides
+.env
+.env.*
+backend/.env
+backend/.env.*

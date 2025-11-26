@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: apod-backend
+  cache:
+    type: caffeine
+
+nasa:
+  api:
+    base: https://api.nasa.gov
+    key: ${NASA_API_KEY:}
+
+cache:
+  ttl:
+    minutes: 60
+  max:
+    size: 200
+
+app:
+  cors:
+    allowed-origins:
+      - http://localhost:5173
+  sample:
+    enabled: true
